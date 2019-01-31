@@ -1,0 +1,37 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+    background-color: #323542;
+
+    .content {
+        width: 300px;
+        height: auto;
+        margin: 0 auto;
+
+        .input {
+            margin-bottom: 30px;
+            border-radius: 4px;
+        }
+
+        .login-button {
+            width: 100%;
+            font-size: 24px;
+            border-radius: 4px;
+            margin-bottom: 30px;
+        }
+
+        .left-col,
+        .right-col {
+            color: #fff;
+            opacity: 0.2;
+            font-size: 16px;
+        }
+
+        .right-col {
+            text-align: right;
+        }
+    }
+}

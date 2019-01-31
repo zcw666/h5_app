@@ -3,12 +3,13 @@
 </style>
 
 <template>
-    <div class="demo">
-        11
+    <div class="register">
+        register
     </div>
 </template>
 <script>
 export default {
+    name:'register',
     data(){
         return {
 
