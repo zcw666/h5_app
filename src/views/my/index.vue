@@ -11,6 +11,8 @@
         <van-cell icon="star-o" title="学生证" to="/login" is-link />
         <van-cell icon="phone-o" title="学生证" to="/login" is-link />
         <p>{{name}}</p>
+        <p>{{$store.state.name}}</p>
+        <div @click="changeName">更改名称</div>
     </div>
 </template>
 <script>
@@ -44,6 +46,10 @@ export default {
         })
 
     },
-    methods:{}
+    methods:{
+        changeName(){
+            this.$store.commit('setName','李四')
+        }
+    }
 }
 </script>
