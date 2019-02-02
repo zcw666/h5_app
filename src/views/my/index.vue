@@ -10,12 +10,15 @@
         <van-cell icon="location-o" title="学生证" to="/login" is-link />
         <van-cell icon="star-o" title="学生证" to="/login" is-link />
         <van-cell icon="phone-o" title="学生证" to="/login" is-link />
+        <p>{{name}}</p>
     </div>
 </template>
 <script>
 import { Cell, CellGroup,Icon } from 'vant';
+import mixin from '@/mixin'
 export default {
     name:'my',
+    mixins: [mixin],
     components:{
         [CellGroup.name]: CellGroup,
         [Cell.name]: Cell,
@@ -40,6 +43,7 @@ export default {
             
         })
 
-    }
+    },
+    methods:{}
 }
 </script>
