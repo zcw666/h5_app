@@ -1,3 +1,4 @@
+/**路由拦截页面 */
 const beforeEach = function (to, from, next) {
     console.log('to', to)
     console.log('form', from)

@@ -1,8 +1,8 @@
 let state = {
     name:'张三',//测试参数
-    arr:[2,3,4,5,6],
+    arr:[2,3,4,5],
     param: '',
-    token: '',
+    token: '333',
     cityId:'',
     appVersion:'',
     cornucopia: {
