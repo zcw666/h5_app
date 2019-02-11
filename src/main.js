@@ -1,5 +1,6 @@
 import "amfe-flexible/index.js"
 import Vue from 'vue'
+import 'es6-promise/auto'//对浏览器es6的兼容处理
 import App from './App.vue'
 import router from './router'
 import store from './vuex'
