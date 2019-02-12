@@ -6,11 +6,11 @@
 * axios
 * vant
 * es6
-* better-scroll
+* vuex-persistedstate(vuex数据持久化)
+<!-- * better-scroll
 * webpack
 * vue-touch
-* vuex-persistedstate(vuex数据持久化)
-* 图片懒加载
+* 图片懒加载 -->
 ### 技术点描述
 * mixins
 * 路由拦截

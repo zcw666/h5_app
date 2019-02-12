@@ -1,32 +1,32 @@
 {
-    "name": "h5_app",
-    "version": "0.1.0",
-    "private": true,
-    "scripts": {
-        "dev": "vue-cli-service serve",
-        "build": "vue-cli-service build"
-    },
-    "dependencies": {
-        "axios": "^0.18.0",
-        "es6-promise": "^4.2.5",
-        "qs": "^6.6.0",
-        "vant": "^1.5.7",
-        "vue": "^2.5.21",
-        "vue-router": "^3.0.2",
-        "vuex": "^3.0.1",
-        "vue-touch": "^2.0.0-beta.4"
-
-    },
-    "devDependencies": {
-        "amfe-flexible": "^2.2.1",
-        "@vue/cli-plugin-babel": "^3.3.0",
-        "@vue/cli-service": "^3.3.0",
-        "babel-plugin-import": "^1.11.0",
-        "node-sass": "^4.9.0",
-        "postcss-pxtorem": "^4.0.1",
-        "sass-loader": "^7.0.1",
-        "vue-template-compiler": "^2.5.21",
-        "vuex-persistedstate": "^2.5.4",
-        "vconsole": "^3.2.0"
-    }
+  "name": "h5_app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "better-scroll": "^1.14.1",
+    "es6-promise": "^4.2.5",
+    "qs": "^6.6.0",
+    "vant": "^1.5.7",
+    "vue": "^2.5.21",
+    "vue-router": "^3.0.2",
+    "vue-touch": "^2.0.0-beta.4",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "amfe-flexible": "^2.2.1",
+    "@vue/cli-plugin-babel": "^3.3.0",
+    "@vue/cli-service": "^3.3.0",
+    "babel-plugin-import": "^1.11.0",
+    "node-sass": "^4.9.0",
+    "postcss-pxtorem": "^4.0.1",
+    "sass-loader": "^7.0.1",
+    "vue-template-compiler": "^2.5.21",
+    "vuex-persistedstate": "^2.5.4",
+    "vconsole": "^3.2.0"
+  }
 }

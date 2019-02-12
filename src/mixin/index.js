@@ -8,7 +8,7 @@ export default   {
             name:'weichen'
         }
     },
-    created: function () { console.log(1) },
+    created: function () { console.log('mixin') },
     methods:{
 
     }
