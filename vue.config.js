@@ -18,7 +18,7 @@ module.exports = {
         config.resolve.alias.set('@components', resolve('src/components'))
         config.resolve.alias.set('@views', resolve('src/views'))
         config.resolve.alias.set('@vuex', resolve('src/vuex'))
-        // ######常用插件的CDN缓存配置######122
+        // ######常用插件的CDN缓存配置######
         // var externals = {
         //     vue: 'Vue',
         //     axios: 'axios',
