@@ -1,3 +1,4 @@
+/**路由配置文件 */
 import guard from './guard'//路由拦截
 
 const login = ()=> import( /* webpackChunkName:'login' */ '@views/login')
