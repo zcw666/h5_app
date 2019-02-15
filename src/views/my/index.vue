@@ -12,7 +12,7 @@
         <van-cell icon="phone-o" title="学生证" to="/login" is-link />
         <p>{{name}}</p>
         <p>{{$store.state.name}}</p>
-        <div @click="changeName">更改名称</div>
+        <div @click="changeName">更改名称(触发vuex持久化)</div>
         <div @click="get">恢复名称</div>
         <img class="img" :src=url alt="">
     </div>
