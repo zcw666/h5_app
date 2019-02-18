@@ -13,6 +13,7 @@
 		<input type="text" v-model="watchValue" placeholder="监听数据变化">
 		<div>2倍-{{computedVal}}</div>
 		<div class="m" @click="click">设置</div>
+        <div class="show" @click="showLayer" >显示</div>
 	</div>
 </template>
 <script>
@@ -21,7 +22,7 @@ export default {
 	data() {
 		let that = this;
 		return {
-			show: true,
+			show: false,
 			close: () => {
 				that.show = !that.show;
 			},
@@ -30,19 +31,19 @@ export default {
 	},
 	computed: {
 		// 仅读取
-		computedVal() {
-			// 当给computedVal赋值时，会报错
-			return this.watchValue * 2;
-		}
-		// 读取和设置
-		// computedVal: {
-		// 	get: function() {
-		// 		return this.watchValue + 1;
-		// 	},
-		// 	set: function(v) {
-		// 		this.watchValue = v - 1;
-		// 	}
+		// computedVal() {
+		// 	// 当给computedVal赋值时，会报错
+		// 	return this.watchValue * 2;
 		// }
+		// 读取和设置
+		computedVal: {
+			get: function() {
+				return this.watchValue + 1;
+			},
+			set: function(v) {
+				this.watchValue = v - 1;
+			}
+		}
 	},
 	watch: {
 		// 写法一
@@ -65,6 +66,9 @@ export default {
 		click() {
 			this.computedVal = 5;
         },
+        showLayer(){
+            this.show = true
+        }
 	}
 };
 </script>
